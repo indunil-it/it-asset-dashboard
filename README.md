@@ -20,3 +20,18 @@ A clean, responsive web dashboard to track and manage IT assets. Built with Vani
 1.  Clone the repo:
     ```bash
     git clone https://github.com/indunil-it/it-asset-dashboard.git
+
+2.  Open index.html in your browser.
+
+🔮 Future Improvements
+- [ ] Connect to MySQL Database with PHP Backend
+- [ ] Add CRUD functionality - Create, Edit, Delete assets
+- [ ] Search and Filter functionality
+- [ ] User Authentication
+
+👨‍💻 Author
+Indunil
+- GitHub: https://github.com/indunil-it
+
+---
+If you like this project, give it a ⭐!    
