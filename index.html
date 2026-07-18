@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Div>
+        <h1>IT Asset Inventory</h1>
+    </Div>
+    <div class="status">
+        <div class="card">
+            <h3>Total Asset</h3>
+            <p id="total-count">0</p>
+        </div>
+        <div class="card">
+            <h3>Active Device</h3>
+            <p id="active-count">0</p>
+        </div>
+        <div class="card">
+            <h3>In Repair</h3>
+            <p id="repair-count">0</p>
+        </div>
+    </div>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Asset ID</th>
+                    <th>Device ID</th>
+                    <th>Assigned To</th>
+                    <th>status</th>
+                </tr>
+            </thead>
+            <tbody id="asset-table-body">
+                <tr>
+                    <th>LAP-001</th>
+                    <th>Dell Latitude</th>
+                    <th>John Smith</th>
+                    <th>Active</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
